@@ -25,10 +25,11 @@ $_element1;
      echo'<li>$_element1 es valida por que inicia con guion bajo</li>';
      echo'<li>$house*5 no es valida por que lleva un *</li>';
      echo'<li>myvar no es valida por que no lleva $</li>';
-     
-
      echo'</ul>';
+     include 'ejercicio2.php'
     ?>
+
+   
 
 </body>
 </html>
