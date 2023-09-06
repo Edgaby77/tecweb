@@ -43,7 +43,9 @@ $_element1;
   $c = $b * 10;
   echo "\$c:";
   echo'<br>';
-   include 'ej4.php'
+   include 'ej4.php';
+   echo'<br>';
+   include 'ejer5.php'
      ?>
 
     
