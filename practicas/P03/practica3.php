@@ -41,10 +41,12 @@ $_element1;
   echo "\$b: " . $b . " (Tipo: " . gettype($b) . ")\n";
   echo '<br>';
   $c = $b * 10;
-  echo "\$c:"
-  
-
+  echo "\$c:";
+  echo'<br>';
+   include 'ej4.php'
      ?>
+
+    
    
 
 </body>
