@@ -27,8 +27,24 @@ $_element1;
      echo'<li>myvar no es valida por que no lleva $</li>';
      echo'</ul>';
      include 'ejercicio2.php'
+     
     ?>
 
+<?php
+  $a = "PHP5";
+  echo "\$a: " . $a . " (Tipo: " . gettype($a) . ")\n";
+  echo '<br>';
+  $z[] = &$a;
+  echo "\$z: [" . implode(", ", $z) . "] (Tipo de \$z[0]: " . gettype($z[0]) . ")\n";
+  echo '<br>';
+  $b = "5a version de PHP";
+  echo "\$b: " . $b . " (Tipo: " . gettype($b) . ")\n";
+  echo '<br>';
+  $c = $b * 10;
+  echo "\$c:"
+  
+
+     ?>
    
 
 </body>
