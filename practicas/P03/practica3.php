@@ -47,7 +47,9 @@ $_element1;
    echo'<br>';
    include 'ejer5.php';
    echo '<br>';
-   include 'EJ7.php'
+   include 'EJ7.php';
+   echo '<br>';
+   include '6.php'
      ?>
 
     
