@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Ventas</title>
+    <style>
+        /* Estilos CSS */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #222122;
+            color: #106d2f;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #444;
+            padding: 10px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .product-container {
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 5px;
+            background-color: #fff;
+        }
+
+        /* Estilos para la barra de búsqueda */
+        .search-bar {
+            display: flex;
+            margin-bottom: 20px;
+        }
+
+        .search-input {
+            flex-grow: 1;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .search-button {
+            padding: 10px 20px;
+            background-color: #333;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>GameLand</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Play Station</a></li>
+            <li><a href="#">Xbox</a></li>
+            <li><a href="#">Nintendo</a></li>
+            <li><a href="#">PC</a></li>
+        </ul>
+            <div class="search-bar">
+                <input type="text" class="search-input" placeholder="Buscar productos...">
+                <button class="search-button">Buscar</button>
+    </nav>
+        <!-- Contenedores de productos -->
+        <div class="product-container">
+            <h2>Left 4 Dead</h2>
+            <img src="Descarga1.jpg" alt="Imagen del Producto" width="200">
+            <p>$400</p>
+            <button onclick="window.location.href='producto1.html'">Ver más</button>
+        </div>
+        
+        <div class="product-container">
+            <h2>Cyberpunk 2077</h2>
+            <img src="Descarga2.jpg" alt="Imagen del Producto" width="300">
+            <p>$600</p>
+            <button onclick="window.location.href='producto2.html'">Ver más</button>
+        </div>
+        
+        <div class="product-container">
+            <h2>PS5 Edicion <br> Spider Man 2</h2>
+            <img src="Descarga3.jpg" alt="Imagen del Producto" width="300">
+            <p>$15,000</p>
+            <button onclick="window.location.href='producto3.html'">Ver más</button>
+        </div>
+        
+        <div class="product-container">
+            <h2>PS VR V.2.0</h2>
+            <img src="Descarga4.jpg" alt="Imagen del Producto" width="300">
+            <p>$16,000</p>
+            <button onclick="window.location.href='producto4.html'">Ver más</button>
+        </div>
+        
+        <div class="product-container">
+            <h2>Mario Party SuperStars</h2>
+            <img src="Descarga5.jpg" alt="Imagen del Producto" width="300">
+            <p>$1,500</p>
+            <button onclick="window.location.href='producto5.html'">Ver más</button>
+        </div>
+    </div>
+</body>
+</html>
