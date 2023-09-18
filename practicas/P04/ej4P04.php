@@ -7,13 +7,13 @@
 </head>
 <body>
 <?php
-// Crear el arreglo con un ciclo for
+
 $arreglo = array();
 for ($i = 97; $i <= 122; $i++) {
-    $arreglo[$i] = chr($i); // Usar chr para obtener el caracter ASCII
+    $arreglo[$i] = chr($i); 
 }
 
-// Crear una tabla XHTML con echo y un ciclo foreach
+
 echo '<table border="1">';
 echo '<tr><th>Índice</th><th>Valor</th></tr>';
 
