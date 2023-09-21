@@ -8,7 +8,7 @@
 <body>
 <form action="http://localhost/tecweb/practicas/P04/ej1P04.php" method="get">
 <?php
-// Obtener el número dado vía GET
+
 $numeroDado = isset($_GET['numero']) ? intval($_GET['numero']) : 0;
 
 if ($numeroDado <= 0) {
@@ -17,7 +17,7 @@ if ($numeroDado <= 0) {
     $encontrado = false;
     
     while (!$encontrado) {
-        $numeroAleatorio = rand(1, 100); // Genera un número aleatorio entre 1 y 100
+        $numeroAleatorio = rand(1, 100); 
         
         if ($numeroAleatorio % $numeroDado == 0) {
             $encontrado = true;

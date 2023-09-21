@@ -12,11 +12,9 @@ function generarNumeroImpar() {
     return rand(1, 100) * 2 - 1;
 }
 
-
 function generarNumeroPar() {
     return rand(1, 100) * 2;
 }
-
 
 $matriz = array();
 $secuenciaObjetivo = [1, 0, 1]; 
@@ -39,7 +37,6 @@ while ($iteraciones < 4) {
         $numerosGenerados++;
     }
     
-  
     $matriz[] = $fila;
     
 
@@ -51,12 +48,10 @@ while ($iteraciones < 4) {
     $iteraciones++;
 }
 
-
 echo "Matriz generada:\n";
 foreach ($matriz as $fila) {
     echo implode(", ", $fila) . "\n";
 }
-
 
 echo "Número de iteraciones: " . $iteraciones . "\n";
 echo "Cantidad de números generados: " . $numerosGenerados . "\n";

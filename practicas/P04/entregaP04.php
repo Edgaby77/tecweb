@@ -34,7 +34,6 @@ function generarNumeroImpar() {
     return rand(1, 100) * 2 - 1;
 }
 
-
 function generarNumeroPar() {
     return rand(1, 100) * 2;
 }
@@ -43,7 +42,6 @@ $matriz = array();
 $secuenciaObjetivo = [1, 0, 1]; 
 $iteraciones = 0;
 $numerosGenerados = 0;
-
 
 while ($iteraciones < 4) { 
     $fila = array();
@@ -105,14 +103,12 @@ if ($numeroDado <= 0) {
 
  <h5>Ejercicio 4</h5>
 
-
  <?php
 
 $arreglo = array();
 for ($i = 97; $i <= 122; $i++) {
     $arreglo[$i] = chr($i); 
 }
-
 
 echo '<table border="1">';
 echo '<tr><th>Índice</th><th>Valor</th></tr>';
@@ -126,10 +122,6 @@ foreach ($arreglo as $indice => $valor) {
 
 echo '</table>';
 ?>
-
-
-
-
 
 </body>
 </html>
