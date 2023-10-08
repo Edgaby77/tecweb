@@ -19,14 +19,14 @@ $marca = $_POST['marca'];
 $modelo = $_POST['modelo'];
 $detalles = $_POST['detalles'];
 $precio = $_POST['precio'];
-
+$eliminado = $_POST['eliminado'];
 
 // Validar datos
-if (empty($nombre) || empty($marca) || empty($modelo)|| empty($detalles) || empty($precio) || !is_numeric($precio)) {
+if (empty($nombre) || empty($marca) || empty($modelo)|| empty($detalles) || empty($precio) || empty($eliminado)  || !is_numeric($precio)) {
     echo "Error: Todos los campos son obligatorios y el precio debe ser un número válido con punto decimal.";
 } else {
     // Insertar datos en la base de datos
-    $sql = "INSERT INTO productos (nombre, marca, modelo, detalles, precio) VALUES ('$nombre', '$marca', '$modelo','$detalles',$precio)";
+    $sql = "INSERT INTO productos (nombre, marca, modelo, detalles, precio, eliminado) VALUES ('$nombre', '$marca', '$modelo','$detalles',$precio, $eliminado)";
 
     if ($conn->query($sql) === TRUE) {
         // Mostrar resumen de los datos insertados
@@ -36,6 +36,7 @@ if (empty($nombre) || empty($marca) || empty($modelo)|| empty($detalles) || empt
         echo "Modelo: $modelo<br>";
         echo "Detalles: $detalles<br>";
         echo "Precio: $precio<br>";
+        echo "eliminado: $eliminado<br>";
      
     } else {
         echo "Error al insertar el producto: " . $conn->error;
