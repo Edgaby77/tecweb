@@ -10,14 +10,20 @@
         // SE REALIZA LA QUERY DE BÚSQUEDA Y AL MISMO TIEMPO SE VALIDA SI HUBO RESULTADOS
         if ( $result = $conexion->query("SELECT * FROM productos WHERE id = '{$id}' || nombre like '{$id}%' || marca like '{$id}%' || detalles like '{$id}%'") ) {
             // SE OBTIENEN LOS RESULTADOS
-            $row = $result->fetch_array(MYSQLI_ASSOC);
-
-            if(!is_null($row)) {
+            //$row = $result->fetch_array(MYSQLI_ASSOC);
+        $datos=array();
+            if(!is_null($result)) {
                 // SE CODIFICAN A UTF-8 LOS DATOS Y SE MAPEAN AL ARREGLO DE RESPUESTA
-                foreach($row as $key => $value) {
+                while ( $row = $result->fetch_array(MYSQLI_ASSOC)
+                ) {
+                    $producArray = array();
+                    foreach($row as $key => $value) {
                     
-                    $data[$key] = utf8_encode($value);
+                        $producArray[$key] = utf8_encode($value);
+                    }  
+                    $datos[]=$producArray;
                 }
+                
             }
             $result->free();
         } else {
@@ -27,5 +33,5 @@
     } 
     
     // SE HACE LA CONVERSIÓN DE ARRAY A JSON
-    echo json_encode($data, JSON_PRETTY_PRINT);
+    echo json_encode($datos, JSON_PRETTY_PRINT);
 ?>
