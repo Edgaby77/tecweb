@@ -27,7 +27,7 @@ $(document).ready(function () {
       let search = $("#search").val();
 
       $.ajax({
-        url: "http://localhost:3000/practicas/p09/p09_con_jquery/product_app/backend/product_search.php",
+        url: "http://localhost:3000/practicas/P09/p09_con_jquery/product_app/backend/product_search.php",
         type: "GET",
         data: { search },
         success: function (response) {
@@ -72,7 +72,7 @@ $(document).ready(function () {
 
     console.log(postData);
     productoJsonString = JSON.stringify(postData, null, 2);
-    let url = edit === false ? 'http://localhost:3000/practicas/p09/p09_con_jquery/product_app/backend/product-add.php' : 'http://localhost:3000/practicas/p09/p09_con_jquery/product_app/backend/product-edit.php';
+    let url = edit === false ? 'http://localhost:3000/practicas/P09/p09_con_jquery/product_app/backend/product-add.php' : 'http://localhost:3000/practicas/P09/p09_con_jquery/product_app/backend/product-edit.php';
    console.log(url);
     $.post(
       url,
@@ -142,7 +142,7 @@ $(document).ready(function () {
     let element = $(this)[0].parentElement.parentElement;
     let id = $(element).attr("productId");
     $.post(
-      "http://localhost:3000/practicas/p09/p09_con_jquery/product_app/backend/product-single.php",
+      "http://localhost:3000/practicas/P09/p09_con_jquery/product_app/backend/product-single.php",
       { id },
       function (response) {
         const producto = JSON.parse(response);
