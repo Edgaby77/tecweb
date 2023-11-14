@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<serviciovod1>
+  <usuarios>
+    <usuario>Edgar Gael</usuario>
+    <usuario>Edgaby77</usuario>
+  </usuarios>
+  <generos_peliculas>
+    <genero>Policíaca</genero>
+    <genero>Comedia</genero>
+  </generos_peliculas>
+  <generos_programas>
+    <genero>Documentales</genero>
+    <genero>Drama</genero>
+  </generos_programas>
+  <titulos>
+    <Policíaca>
+      <titulo>El silencio de los corderos</titulo>
+      <titulo>Seven</titulo>
+      <titulo>Prisioneros</titulo>
+      <titulo>Heat</titulo>
+    </Policíaca>
+    <Comedia>
+      <titulo>La La Land</titulo>
+      <titulo>Superbad</titulo>
+      <titulo>Intocable</titulo>
+      <titulo>¿Qué pasó ayer?</titulo>
+    </Comedia>
+    <Documentales>
+      <titulo>Virunga</titulo>
+      <titulo>Going Clear</titulo>
+      <titulo>Citizenfour</titulo>
+      <titulo>Man on Wire</titulo>
+    </Documentales>
+    <Drama>
+      <titulo>El Padrino</titulo>
+      <titulo>Forrest Gump</titulo>
+      <titulo>Cadena perpetua</titulo>
+      <titulo>El club de la lucha</titulo>
+    </Drama>
+  </titulos>
+</serviciovod1>

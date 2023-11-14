@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<serviciovod1>
+  <usuarios>
+    <usuario correo="gelhombre@hotmail.com.com">
+      <perfil nombre="Edgar" apellido="Hernandez" edad="21" />
+    </usuario>
+    <usuario correo="202056842@viep.mx">
+      <perfil nombre="Gael" apellido="Sanchez" edad="25" />
+    </usuario>
+  </usuarios>
+  <generos>
+    <genero nombre="Policíaca" />
+    <genero nombre="Comedia" />
+    <genero nombre="Documentales" />
+    <genero nombre="Drama" />
+  </generos>
+  <titulos>
+    <titulo tipo="Pelicula" genero="Policíaca" duracion="120">El silencio de los corderos</titulo>
+    <titulo tipo="Pelicula" genero="Policíaca" duracion="127">Seven</titulo>
+    <titulo tipo="Pelicula" genero="Policíaca" duracion="153">Prisioneros</titulo>
+    <titulo tipo="Pelicula" genero="Policíaca" duracion="170">Heat</titulo>
+    <titulo tipo="Pelicula" genero="Comedia" duracion="128">La La Land</titulo>
+    <titulo tipo="Pelicula" genero="Comedia" duracion="113">Superbad</titulo>
+    <titulo tipo="Pelicula" genero="Comedia" duracion="112">Intocable</titulo>
+    <titulo tipo="Pelicula" genero="Comedia" duracion="100">¿Qué pasó ayer?</titulo>
+    <titulo tipo="Serie" genero="Documentales" duracion="50">Virunga</titulo>
+    <titulo tipo="Serie" genero="Documentales" duracion="120">Going Clear</titulo>
+    <titulo tipo="Serie" genero="Documentales" duracion="114">Citizenfour</titulo>
+    <titulo tipo="Serie" genero="Documentales" duracion="94">Man on Wire</titulo>
+    <titulo tipo="Serie" genero="Drama" duracion="175">El Padrino</titulo>
+    <titulo tipo="Serie" genero="Drama" duracion="142">Forrest Gump</titulo>
+    <titulo tipo="Serie" genero="Drama" duracion="142">Cadena perpetua</titulo>
+    <titulo tipo="Serie" genero="Drama" duracion="139">El club de la lucha</titulo>
+  </titulos>
+</serviciovod1>
