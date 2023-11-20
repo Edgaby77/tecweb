@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE cinefanatico SYSTEM "cinefanatico.dtd">
+
+<cinefanatico>
+
+    <tarjeta noserie="7480923" visitas="80" puntos="643">
+
+        <nombre>Edgar Hernandez</nombre>
+        <correo>gelhombre@hotmail.com</correo>
+        <telefono tipo="movil">2227613252</telefono>
+
+    </tarjeta>
+
+    <tarjeta noserie="1412235" visitas="97" puntos="710">
+
+        <nombre>Dolore Hernandez</nombre>
+        <correo>flakis1022@hotmail.com</correo>
+        <telefono tipo="movil">22228633592</telefono>
+
+    </tarjeta>
+
+    <tarjeta noserie="5849762" visitas="34" puntos="507">
+
+        <nombre>Angel </nombre>
+        <correo>angel@hotmail.com</correo>
+        <telefono tipo="casa">1234567</telefono>
+
+    </tarjeta>
+
+        <tarjeta noserie="7847330" visitas="85" puntos="944">
+
+        <nombre>Joaquin</nombre>
+        <correo>joaquin@icloud.com</correo>
+        <telefono tipo="casa">35468362</telefono>
+
+    </tarjeta>
+
+        <tarjeta noserie="6512964" visitas="18" puntos="211">
+
+        <nombre>Carlos</nombre>
+        <correo>carlos@gmail.com</correo>
+        <telefono tipo="movil">55534689</telefono>
+
+    </tarjeta>
+
+</cinefanatico>
